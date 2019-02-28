@@ -45,7 +45,7 @@ function answer($text){
 		
 		$regex = '/คู่มือ.?(ประจำวัน|คดี|จราจร)/i';
 		if(preg_match($regex ,$text)){	
-			$hint = "คู่มือประจำวันอิเล็กทรอนิกส์เกี่ยวคดีอาญา/จราจร <a href=คลิกดาวน์โหลด>https://drive.google.com/open?id=1IA06BQ0d495SpHnosEjcY1Q3-49A12su</a>";
+			$hint = "คู่มือประจำวันอิเล็กทรอนิกส์เกี่ยวคดีอาญา/จราจร <a href='คลิกดาวน์โหลด'>https://drive.google.com/open?id=1IA06BQ0d495SpHnosEjcY1Q3-49A12su</a>";
 			break;
 		}
 		
