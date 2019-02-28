@@ -43,9 +43,27 @@ function answer($text){
 		}
 		//Start ประจำวันอิเล็กทรอนิกส์ในระบบ CRIMES
 		
-		$regex = '/คู่มือ.?(ประจำวัน|คดี|จราจร)/i';
+		$regex = '/คู่มือ.?(ประจำวัน|คดี|อาญา|จราจร)/i';
 		if(preg_match($regex ,$text)){	
-			$hint = "คู่มือประจำวันอิเล็กทรอนิกส์เกี่ยวคดีอาญา/จราจร <a href='คลิกดาวน์โหลด'>https://drive.google.com/open?id=1IA06BQ0d495SpHnosEjcY1Q3-49A12su</a>";
+			$hint = "คู่มือประจำวันอิเล็กทรอนิกส์รับแจ้งเกี่ยวกับคดีอาญา/จราจร https://goo.gl/uRCtvk";
+			break;
+		}
+		
+		$regex = '/คู่มือ.?(ประจำวัน|เอกสารหาย)/i';
+		if(preg_match($regex ,$text)){	
+			$hint = "คู่มือประจำวันอิเล็กทรอนิกส์รับแจ้งเอกสารหาย https://goo.gl/xUKfEA";
+			break;
+		}
+		
+		$regex = '/คู่มือ.?(ประจำวัน|หลักฐาน)/i';
+		if(preg_match($regex ,$text)){	
+			$hint = "คู่มือประจำวันอิเล็กทรอนิกส์รับแจ้งเป็นหลักฐาน https://goo.gl/dVq8KN";
+			break;
+		}
+		
+		$regex = '/คำสั่ง.?(|147|454|86)/i';
+		if(preg_match($regex ,$text)){	
+			$hint = "คำสั่ง ตร. ที่ 147/2561 https://goo.gl/VWqJTa";
 			break;
 		}
 		
