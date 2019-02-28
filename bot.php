@@ -63,7 +63,7 @@ function answer($text){
 		
 		$regex = '/คำสั่ง.?(|147|454|86)/i';
 		if(preg_match($regex ,$text)){	
-			$hint = "คำสั่ง ตร. ที่ 147/2561 https://goo.gl/VWqJTa";
+			$hint = "คำสั่ง ตร. ที่เกี่ยวข้องในการนำร่องประจำวันอิเล็กทรอนิกส์ในระบบ CRIMES https://goo.gl/VWqJTa";
 			break;
 		}
 		
