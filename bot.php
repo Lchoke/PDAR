@@ -1,6 +1,6 @@
 <?php
-$chanel_id='1626400845';
-$chanel_secret='fa1ca0d62a7b8d256770b0c05b15e2b1';
+$chanel_id='1650708998';
+$chanel_secret='e28765884ee231e84eb831b258f2fbcd';
 $access_token='5qEwwppGreEL/AJpKWMUk8B6zOkPdMbB1Yk0Ii/qD2K6YgMA+34mHFqALlPknlhKUlwbUEbvPNO+7Y9eo9pEmZPviLb0P3tIrgZ1FHiaXA3X/0sBqKEiPSR78RRhqHm/fF1Nx7D4FkL+2cfIee3XPgdB04t89/1O/w1cDnyilFU=';
 $uid='U276b787d18de24f2979a0fefd7cb1457';
 
