@@ -41,6 +41,18 @@ function answer($text){
 			$hint = "ถ้าไม่มี userPOLIS หรือ ลืมรหัส https://youtu.be/WmDH8G1Swv8";
 			break;
 		}
+		//Start ประจำวันอิเล็กทรอนิกส์ในระบบ CRIMES
+		
+		$regex = '/คู่มือ.?(ประจำวัน|คดี|จราจร)/i';
+		if(preg_match($regex ,$text)){	
+			$hint = "คู่มือประจำวันอิเล็กทรอนิกส์เกี่ยวคดีอาญา/จราจร https://drive.google.com/open?id=1IA06BQ0d495SpHnosEjcY1Q3-49A12su";
+			break;
+		}
+		
+		
+		
+		//End ประจำวันอิเล็กทรอนิกส์ในระบบ CRIMES
+		
 		
 		$regex = '/(ขอบคุณ|thank|thanks|ขอบใจ)/i';
 		if(preg_match($regex ,$text)){	
